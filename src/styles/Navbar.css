@@ -1,0 +1,40 @@
+.nav {
+  width: 1160px;
+  display: flex;
+  margin: 2vh auto;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+}
+.nav__items ul {
+  list-style: none;
+  display: flex;
+}
+.nav__items ul li{
+  margin: 0 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #38BFF2;
+}
+.login-button {
+  padding: 10px 20px;
+  background-color: #38BFF2;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.login-button:hover{
+  background-color: #2e9ec6;
+  cursor: pointer;
+}
