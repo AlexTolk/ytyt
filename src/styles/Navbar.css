@@ -38,3 +38,25 @@ a:hover {
   background-color: #2e9ec6;
   cursor: pointer;
 }
+
+.hamburger {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .nav {
+    width: 90vw;
+    padding: 10px 0;
+  }
+
+  .nav__items {
+    display: none;
+  }
+  a {
+    display: none;
+  }
+  .hamburger {
+    display: contents;
+    font-size: 1.5em;
+    color: #F15525;
+  }
+}

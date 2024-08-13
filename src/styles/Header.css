@@ -48,3 +48,45 @@
   color: #F15525;
   font-size: 1.2em;
 }
+@media only screen and (max-width: 600px) {
+  .header {
+    background-image: url(../assets/hero_mobile.png);
+    height: 200vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .CTA {
+    margin: 100px auto;
+    text-align: center;
+    width: 90vw;
+  }
+  .CTA__big{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-weight: 600;
+  }
+  .header-img {
+    height: 300px;
+    margin: auto;
+    padding-bottom: 460px;
+  }
+  .button-caption{
+    margin-top: 10px;
+    width: 80vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    margin-left: 15px;
+  }
+  .test-button{
+    margin: 10px 0;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-color: #F15525;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+  }
+}

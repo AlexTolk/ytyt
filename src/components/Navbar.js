@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css'
 import logo from '../assets/logo.png'
+import { FaBars } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
@@ -19,6 +20,9 @@ export default function Navbar() {
       <div className='nav__buttons'>
         <a href='/'>Регистрация</a>
         <button className="login-button">Войти</button>
+      </div>
+      <div className='hamburger'>
+        <FaBars />
       </div>
     </div>
   );
