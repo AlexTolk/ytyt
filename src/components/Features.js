@@ -27,7 +27,7 @@ export default function Feature() {
           <p>Это необходимый минимум для современного backend-разработчика</p>
         </div>
       </div>
-      <h2>Обучение в YtYt – это <br/> удобно и результативно</h2>
+      <h2>Обучение в YtYt – это удобно и результативно</h2>
       <div className='features__cards'>
         <div className='card'>
           <img src={code} alt='html code icon'/>

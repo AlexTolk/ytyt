@@ -72,3 +72,36 @@
   border-radius: 20px;
   font-family: 'Open Sans', sans-serif;
 }
+@media only screen and (max-width: 600px) {
+  .features{
+    /* height: 100vh; */
+    margin-top: -400px;
+  }
+  .stack img{
+    display: none;
+  }
+  .stack {
+    width: 90%;
+  }
+  .stack__list {
+    max-width: 100%;
+  }
+  .stack__list ul{
+    padding: 0;
+    width: 85vw;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .stack__list li{
+    min-width: fit-content;
+    flex: 1;
+  }
+  .stack__list p{
+    display: none;
+  }
+  .features h2{
+    font-size: 2em;
+    margin: 10vh 2.5vw;
+  }
+}
