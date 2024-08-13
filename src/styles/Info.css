@@ -1,0 +1,73 @@
+.info-wrapper {
+  background-image: url(../assets/ripple_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+  margin-top: -10vh;
+  z-index: -100;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-title {
+  margin-top: 20vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+}
+.info-paragraph {
+  max-width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+}
+.method-cards {
+  display: flex;
+  max-width: 80vw;
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.info-card{
+  width: 33%;
+  padding: 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.info-card h1 {
+  font-size: 5em;
+  color: #38BFF2;
+  margin: 10px auto;
+}
+.info-card:nth-child(even){
+  border-left: solid 1px lightgrey;
+  border-right: solid 1px lightgrey;
+}
+.action-container{
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  background-color: #fff;
+  border-radius: 40px;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.action-button{
+  width: 50%;
+  border: none;
+  background-color: #F15525;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 20px 15px;
+}
+.action-text {
+  width: 50%;
+  padding: 5px 10px;
+  font-weight: 600;
+}
