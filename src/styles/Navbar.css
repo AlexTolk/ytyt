@@ -1,11 +1,13 @@
 .nav {
   width: 1160px;
   display: flex;
-  margin: 2vh auto;
   background-color: #fff;
   justify-content: space-around;
   align-items: center;
   border-radius: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10vw;
 }
 .nav__items ul {
   list-style: none;
@@ -46,6 +48,7 @@ a:hover {
   .nav {
     width: 90vw;
     padding: 10px 0;
+    left: 5vw;
   }
 
   .nav__items {
