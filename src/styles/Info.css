@@ -71,3 +71,45 @@
   padding: 5px 10px;
   font-weight: 600;
 }
+@media only screen and (max-width: 600px) {
+  .info-wrapper{
+    background-image: none;
+    background-color: #EDF5F8;
+  }
+  .info-title {
+    text-align: center;
+    font-size: 2em;
+  }
+  .info-paragraph {
+    max-width: 90%;
+  }
+  img{
+    max-width: 300px;
+  }
+  .method-cards {
+    flex-direction: column;
+  }
+  .info-card {
+    width: 90%;
+  }
+  .info-card:nth-child(even){
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+  }
+  .action-container{
+    padding: 10px;
+    flex-direction: column;
+    width: 90vw;
+  }
+  .action-button{
+    width: 80%;
+    padding: 20px;
+  }
+  .action-text {
+    width: 90%;
+    text-align: center;
+    padding: 0;
+  }
+}

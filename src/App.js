@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Features from './components/Features'
 import Info from './components/Info'
+import About from './components/About'
 
 export default function App() {
   return(
@@ -11,6 +12,7 @@ export default function App() {
       <Header />
       <Features />
       <Info />
+      <About />
     </>
   );
 }
