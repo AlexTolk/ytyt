@@ -35,7 +35,9 @@
 }
 @media only screen and (max-width: 600px) {
   .about-wrapper{
+    margin: 0 auto;
     padding: 10px 0;
+    max-width: 100vw;
   }
   .image-box{
     width: 90vw;

@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Features from './components/Features'
 import Info from './components/Info'
 import About from './components/About'
-// import Prices from './components/Prices'
+import Prices from './components/Prices'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
       <Features />
       <Info />
       <About />
-      {/* <Prices /> */}
+      <Prices />
       <Footer />
     </>
   );

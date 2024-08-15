@@ -1,5 +1,4 @@
 .prices-wrapper{
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,24 +75,43 @@ tbody tr:nth-child(even) {
   padding: 20px 15px;
 }
 @media only screen and (max-width: 600px) {
+  .prices-wrapper {
+    padding: 20px 10px;
+    max-width: 85vw;
+    margin-left: 15px;
+  }
+  .prices-wrapper h2 {
+    font-size: 1.8em;
+  }
   .points{
     flex-direction: column;
+    width: 90%;
+    align-items: center;
   }
   .point{
     max-width: 80%;
     flex-direction: column;
+    text-align: center;
   }
   .disclaimer{
     flex-direction: column;
     width: 80vw;
   }
+  .disclaimer img{
+    height: 80px;
+  }
+  .footnote {
+    margin: 0 10px 10px 10px;
+  }
   .disclaimer p{
     width: 80%;
+    margin-bottom: 20px;
   }
   .disclaimer button{
     width: 75%;
   }
   table{
+    min-height: 100vh;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
